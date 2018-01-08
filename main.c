@@ -8,11 +8,10 @@ int sum(int* input, int length) {
 }
 
 int main(void) {
-
-int tbl[5] = {1,2,3,4,5};
-int len = 5,res;
-
-res = sum(tbl,len);
-printf("Result is : %d\n", res);
+    int tbl[5] = {1,2,3,4,5};
+    int len = 5,res;
+    
+    res = sum(tbl,len);
+    printf("Result is : %d\n", res);
 return 0;
 }
